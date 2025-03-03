@@ -1,0 +1,11 @@
+.btnclass {
+  min-width: 80px;
+}
+.rowz {
+  margin: 10px;
+}
+h4 {
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: solid;
+}

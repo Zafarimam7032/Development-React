@@ -1,21 +1,21 @@
 function heading() {
   return (
-    <div class="container text-center">
+    <div className="container text-center">
       <h4>Tudo App</h4>
-      <div class="row align-items-start rowz">
-        <div class="col">
+      <div className="row align-items-start rowz">
+        <div className="col">
           <input
             type="text"
             name=""
-            class="textclass"
+            className="textclass"
             placeholder="Enter Tudo Text"
           />
         </div>
-        <div class="col">
-          <input type="date" name="" id="" class="data" />
+        <div className="col">
+          <input type="date" name="" id="" className="data" />
         </div>
-        <div class="col">
-          <button type="button" class="btn btn-success btnclass">
+        <div className="col">
+          <button type="button" className="btn btn-success btnclass">
             Add
           </button>
         </div>

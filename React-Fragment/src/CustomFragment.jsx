@@ -1,8 +1,8 @@
 function customfrag() {
   return (
     <>
-      <h4>This is food menu</h4>
-      <h4>you have to choose from that</h4>
+      <h6>please choose from Above Menu</h6>
+      <h6>you have to choose from that</h6>
     </>
   );
 }

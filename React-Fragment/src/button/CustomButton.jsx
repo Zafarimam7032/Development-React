@@ -7,7 +7,7 @@ const customButton = () => {
         className={style.zbutton}
         onClick={() => console.log(`button have been clincked`)}
       >
-        clink
+        click
       </button>
     </>
   );

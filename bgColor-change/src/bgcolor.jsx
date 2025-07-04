@@ -6,7 +6,7 @@ function BgChanger() {
   return (
     <div style={{ backgroundColor: bgColor, height: "100vh", padding: "2rem" }}>
       <h1 style={{ color: "#333" }}>Background: {bgColor}</h1>
-      <div className="bg-white flex flex-wrap p-2 rounded-xl justify-center">
+      <div className="bg-white p-2 rounded-xl justify-center flex">
         <ButtonColor color="red" setBgColor={setBgColor} />
         <ButtonColor color="green" setBgColor={setBgColor} />
         <ButtonColor color="yellow" setBgColor={setBgColor} />

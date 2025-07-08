@@ -34,7 +34,10 @@ function CurrencyFram() {
           <select
             className="ml-2 p-2 rounded-lg"
             value={fromCurrency}
-            onChange={(e) => setFromCurrency(e.target.value)}
+            onChange={(e) => {
+              e.preventDefault();
+              setFromCurrency(e.target.value);
+            }}
           >
             {Object.keys(rates).map((cur) => (
               <option key={cur} value={cur}>

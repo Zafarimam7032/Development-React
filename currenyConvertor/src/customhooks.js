@@ -4,10 +4,9 @@ function currencyInfo(baseCurrency) {
   const [data, setData] = useState({ rates: {} });
 
   useEffect(() => {
-    fetch(`https://api.frankfurter.app/latest?from=${baseCurrency}`)
+    fetch(`https://api.exchangerate-api.com/v4/latest/${baseCurrency}`)
       .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => console.error("Currency fetch error:", err));
+      .then((res) => setData(res));
   }, [baseCurrency]);
 
   return data;

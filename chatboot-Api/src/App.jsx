@@ -4,9 +4,7 @@ import Heading from "./assets/heading/Heading";
 function App() {
   return (
     <>
-      <div className="">
-        <Heading></Heading>
-      </div>
+      <Heading></Heading>
     </>
   );
 }

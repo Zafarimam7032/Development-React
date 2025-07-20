@@ -12,9 +12,9 @@ import {
 import Layout from "./layout.jsx";
 import Contect from "./contact/contect.jsx";
 import Home from "./home/home.jsx";
-import Projects from "./project/project.jsx";
 import About from "./about/about.jsx";
 import GitHub from "./github/GitHubPhoto.jsx";
+import Projects from "./project/Project.jsx";
 
 const rounter = createBrowserRouter(
   createRoutesFromElements(

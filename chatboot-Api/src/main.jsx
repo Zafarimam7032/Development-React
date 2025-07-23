@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./layout/layout.jsx";
+import UserProvider from "./ReactContext.jsx";
 
 const rounter1 = createBrowserRouter(
   createRoutesFromElements(<Route path="/" element={<Layout />}></Route>)
